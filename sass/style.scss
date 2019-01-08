@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Baloo Paaji', cursive;
+}
+
+body {
+    margin: 0 auto;
+    background: linear-gradient(rgb(21, 21, 156), rgb(0, 247, 255)) fixed;
+}
+
+.board {
+    width: 70%;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: #555555;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+.column-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: rgba(8, 51, 243, 0.329);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.add-card,
+.create-column,
+.btn-delete {
+
+    color: black;
+
+    &:hover {
+        background-color: #2a5add;
+        color: white;
+
+    }
+}
+
+
+.card {
+    padding: 20px;
+}
+
+.card-description {
+
+    background-color: rgb(196, 216, 216);
+    border-radius: 10px;
+}
+
+ul {
+
+    list-style-type: none;
+    width: 300px;
+}
